@@ -54,6 +54,7 @@ export default function (options: SolidSVGPluginOptions = {}) {
         if (!resolved) {
           return
         }
+        if(resolved.id.startsWith(SVG_JSX_VIRTUAL_PREFIX)) return resolved.id
         return join(SVG_JSX_VIRTUAL_PREFIX, resolved.id + ".jsx")
       },
     },
