@@ -1,0 +1,20 @@
+{
+  "name": "vite-template-solid",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "vite-plugin-inspect": "^0.7.38",
+    "vite-plugin-solid": "^2.7.0",
+    "vite-plugin-svg-jsx": "link:../.."
+  },
+  "dependencies": {
+    "solid-js": "^1.7.11"
+  }
+}

@@ -1,0 +1,1 @@
+This plugins converts SVG to JSX =)
